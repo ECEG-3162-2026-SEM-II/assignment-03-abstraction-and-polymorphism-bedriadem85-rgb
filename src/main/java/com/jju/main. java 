@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Polymorphic list (Parent type)
-        ArrayList<SmartDevice> devices = new ArrayList<>();
+        Array List<SmartDevice> devices = new ArrayList<>();
 
         // Add different device types
         devices.add(new SmartLight("Living Room Light"));
