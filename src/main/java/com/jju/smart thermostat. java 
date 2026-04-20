@@ -1,1 +1,13 @@
-smart thermostat. java 
+public class SmartThermostat extends SmartDevice {
+
+    // Constructor
+    public SmartThermostat(String name) {
+        super(name);
+    }
+
+    // Override activate method
+    @Override
+    public void activate() {
+        System.out.println(getName() + " is setting temperature to 72 degrees.");
+    }
+}
