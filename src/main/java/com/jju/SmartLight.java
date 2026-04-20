@@ -1,6 +1,6 @@
 package com.jju;
 
-public class SmartLight extends SmartDevice {
+public class Smart Light extends SmartDevice {
 
     // Constructor
     public SmartLight(String name) {
