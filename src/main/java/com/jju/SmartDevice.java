@@ -5,7 +5,7 @@ public abstract class SmartDevice {
     private String name;
 
     // Constructor
-    public SmartDevice(String name) {
+    public SmartDevice(Stringname) {
         this.name = name;
     }
 
