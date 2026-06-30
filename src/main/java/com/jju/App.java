@@ -12,7 +12,6 @@ public class Main {
         home.add(new SmartThermostat("Hallway Nest"));
 
         System.out.println("--- Activating Smart Home ---");
-
         // Polymorphic Loop: The 'device' variable takes many forms
         for (SmartDevice device : home) {
             device.activate(); 
